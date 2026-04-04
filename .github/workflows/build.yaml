@@ -1,33 +1,24 @@
-name: Build dist on push
-
+name: Build
 on:
-  push:
-    branches:
-      - main
-
+    pull_request:
+    push:
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+            - name: Install
+              run: npm ci
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+            - name: Build
+              run: npm run build
 
-      - name: Install dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Build
-        run: npm run build
-
-      - name: Commit dist folder
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add -A dist
-          git commit -m "Auto-build dist" || echo "No changes to commit"
-          git push
+            - name: Commit dist folder
+              run: |
+                git config user.name "GitHub Actions"
+                git config user.email "actions@github.com"
+                git add -A
+                git commit -m "Build dist" || echo "No changes to commit"
+                git push
