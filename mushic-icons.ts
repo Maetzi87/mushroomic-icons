@@ -18,7 +18,7 @@ const basePath = (() => {
     }
   } catch {}
 
-  return "/hacsfiles/lovelace-mushroomic-upstream";
+  return "/hacsfiles/mushroomic-icons";
 })();
 
 for (const [name, file] of Object.entries(iconList)) {
