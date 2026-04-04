@@ -2,8 +2,8 @@ export const __mushic_side_effect__ = true;
 
 console.log("Mushic Icon Registry LOADED");
 
-import { customIconset } from "../../ha";
-import iconList from "./mushic-icons.json";
+import { customIconset } from "./utils/custom-iconset";
+import iconList from "./utils/mushic-icons.json";
 
 let mushicIcons: Record<string, string> = {};
 
