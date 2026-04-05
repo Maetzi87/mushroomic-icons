@@ -1,8 +1,18 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# hass-bha-icons
+# 🍄 Mushroomic Icons
 
-Custom icon pack designed for Home Assistant.
+A standalone SVG icon set for Home Assistant, providing a clean and lightweight custom icon namespace: mushic:.
+
+Mushroomic Icons mimic the style of the preinstalled Material Design Icons, adding Icons I personally missed.
+
+The icons are especially designed to be used with Mushroomic Cards [https://github.com/Maetzi87/lovelace-mushroomic-cards], but work anywhere in Homeassistant.
+
+All icons are automatically registered through the included mushic-icons.js bundle, making them globally available in Lovelace without any additional configuration.
+
+If you use the Icons in Mushroomic Cards, some of them can be automated automatically.
+
+---
 
 ## Generic content
 
@@ -76,14 +86,14 @@ Add this repo via HACS as a plugin and install. See the [HACS install guide](./H
 
 ### Manual
 
-Copy the `hass-bha-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
+Copy the `music-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
 
 Add the folowing to the `frontend` section of your `configuration.yaml`
 
 ```yaml
 frontend:
   extra_module_url:
-    - /local/hass-bha-icons.js
+    - /local/mushic-icons.js
 ```
 
 Or add the following to your lovelace configuration using the Raw Config editor under Configure UI or ui-lovelace.yaml if using YAML mode.
@@ -91,38 +101,15 @@ Or add the following to your lovelace configuration using the Raw Config editor 
 ```yaml
 resources:
   - type: js
-    url: /local/hass-bha-icons.js
+    url: /local/mushic-icons.js
 ```
 
 Restart home-assistant.
 
 ## Using
 
-The icons uses the prefix `bha:`.
+The icons uses the prefix `mushic:`.
 
-Example:
-
-```
-entities:
-  - entity: light.floor_lamp
-    icon: 'bha:floor-lamp'
-    name: floor-lamp
-  - entity: light.floor_lamp_dual
-    icon: 'bha:floor-lamp-dual'
-    name: floor-lamp-dual
-  - entity: light.led_strip
-    icon: 'bha:led-strip'
-    name: led-strip
-  - entity: light.outdoor_lamp_north
-    icon: 'bha:outdoor-lamp'
-    name: outdoor-lamp
-  - entity: light.outdoor_lamp_west
-    icon: 'bha:outdoor-lamp-variant'
-    name: outdoor-lamp-variant
-show_header_toggle: false
-title: hass-bha-icons
-type: entities
-```
 
 ## FAQ
 
