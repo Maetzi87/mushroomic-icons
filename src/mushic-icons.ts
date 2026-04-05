@@ -22,7 +22,7 @@ const basePath = (() => {
 })();
 
 for (const [name, file] of Object.entries(iconList)) {
-  mushicIcons[name] = `${basePath}/icons/mushic/${file}`;
+  mushicIcons[name] = `${basePath}/${file}`;
 }
 
 console.log("Mushic icons loaded:", mushicIcons);
