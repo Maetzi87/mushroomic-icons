@@ -2,19 +2,17 @@
 
 # 🍄 Mushroomic Icons
 
-A standalone SVG icon set for Home Assistant, providing a clean and lightweight custom icon namespace: mushic:.
+A standalone SVG icon set for Home Assistant, providing a clean and lightweight custom icon namespace `mushic:`.
 
-Mushroomic Icons mimic the style of the preinstalled Material Design Icons, adding Icons I personally missed.
+The icons are especially designed to be used with [**Mushroomic Cards**](https://github.com/Maetzi87/lovelace-mushroomic-cards), but work anywhere in Homeassistant.
 
-The icons are especially designed to be used with Mushroomic Cards [https://github.com/Maetzi87/lovelace-mushroomic-cards], but work anywhere in Homeassistant.
+Mushroomic Icons mimic the style of the preinstalled Material Design Icons, adding Icons I personally missed. Some of the Icons are identical with mdi icons, but provide **auto-animation** in Mushroomic Cards.
 
 All icons are automatically registered through the included mushic-icons.js bundle, making them globally available in Lovelace without any additional configuration.
 
-If you use the Icons in Mushroomic Cards, some of them can be automated automatically.
-
 ---
 
-## Generic content
+## Generic content - icon list in progress
 
 ![Preview](./svg/ceiling-downlight.svg) ceiling-downlight<br />
 ![Preview](./svg/ceiling-fan.svg) ceiling-fan<br />
@@ -116,9 +114,3 @@ The icons uses the prefix `mushic:`.
 Q: The icon ain't showing, it's just white space where it should be. What's up with that?
 
 A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
-
-## Thanks
-
-Thanks to @thomasloven, as I used his hass-fontawesome as a template for this pack
-
-Thanks to @prairiesnpr, @kmlucy, @GeorgeSG, @shbatm, @clemalex824 and @rautesamtr for their contributiuons
