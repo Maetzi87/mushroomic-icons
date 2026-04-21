@@ -1,4 +1,8 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
+![Downloads](https://img.shields.io/github/downloads/Maetzi87/mushroomic-icons/latest/total)
+![Total Downloads](https://img.shields.io/github/downloads/Maetzi87/mushroomic-icons/total)
+![Latest Release](https://img.shields.io/github/v/release/Maetzi87/mushroomic-icons)
+![License](https://img.shields.io/github/license/Maetzi87/mushroomic-icons)
+![Stars](https://img.shields.io/github/stars/Maetzi87/mushroomic-icons)
 
 # 🍄 Mushroomic Icons
 
@@ -12,69 +16,111 @@ All icons are automatically registered through the included mushic-icons.js bund
 
 ---
 
-## Generic content - icon list in progress
+## Available icons
 
-![Preview](./svg/ceiling-downlight.svg) ceiling-downlight<br />
-![Preview](./svg/ceiling-fan.svg) ceiling-fan<br />
-![Preview](./svg/ceiling-fan-light.svg) ceiling-fan-light<br />
-![Preview](./svg/ceiling-lamp.svg) ceiling-lamp<br />
-![Preview](./svg/ceiling-lamp-plafond.svg) ceiling-lamp-plafond<br />
-![Preview](./svg/ceiling-lamp-round.svg) ceiling-lamp-round<br />
-![Preview](./svg/ceiling-spot-lamp.svg) ceiling-spot-lamp<br />
-![Preview](./svg/chandelier.svg) chandelier<br />
-![Preview](./svg/dome-light.svg) dome-light<br />
-![Preview](./svg/fan-speed-1.svg) fan-speed-1<br />
-![Preview](./svg/fan-speed-2.svg) fan-speed-2<br />
-![Preview](./svg/fan-speed-3.svg) fan-speed-3<br />
-![Preview](./svg/fan-speed-4.svg) fan-speed-4<br />
-![Preview](./svg/fan-speed-5.svg) fan-speed-5<br />
-![Preview](./svg/fan-speed-6.svg) fan-speed-6<br />
-![Preview](./svg/fan-speed-7.svg) fan-speed-7<br />
-![Preview](./svg/fan-speed-8.svg) fan-speed-8<br />
-![Preview](./svg/fan-speed-9.svg) fan-speed-9<br />
-![Preview](./svg/floor-lamp.svg) floor-lamp<br />
-![Preview](./svg/floor-lamp-dual.svg) floor-lamp-dual<br />
-![Preview](./svg/heat-pump.svg) heat-pump<br />
-![Preview](./svg/led-strip.svg) led-strip<br />
-![Preview](./svg/lightbulb-top.svg) lightbulb-top<br />
-![Preview](./svg/lightbulb-top-outline.svg) lightbulb-top-outline<br />
-![Preview](./svg/light-string.svg) light-string<br />
-![Preview](./svg/nas.svg) nas<br />
-![Preview](./svg/night-light.svg) night-light<br />
-![Preview](./svg/outdoor-lamp.svg) outdoor-lamp<br />
-![Preview](./svg/outdoor-lamp-solo.svg) outdoor-lamp-solo<br />
-![Preview](./svg/outdoor-lamp-variant.svg) outdoor-lamp-variant<br />
-![Preview](./svg/mirror-lamp.svg) mirror-lamp<br />
-![Preview](./svg/path-light.svg) path-light<br />
-![Preview](./svg/smoke-detector.svg) smoke-detector<br />
-![Preview](./svg/spot-bulb.svg) spot-bulb<br />
-![Preview](./svg/spot-bulb-top.svg) spot-bulb-top<br />
-![Preview](./svg/stairs.svg) stairs<br />
-![Preview](./svg/table-lamp-variant.svg) table-lamp-variant<br />
-![Preview](./svg/thermostat.svg) thermostat<br />
-![Preview](./svg/xmas-candle-bridge.svg) xmas-candle-bridge<br />
-![Preview](./svg/xmas-star.svg) xmas-star<br />
+<!-- ICONS START -->
+| Icon | Name |
+|------|------|
+| <img src="./svg/3-sockets.svg" width="24" /> | 3-sockets |
+| <img src="./svg/access-point.svg" width="24" /> | access-point |
+| <img src="./svg/air-freshener-disabled.svg" width="24" /> | air-freshener-disabled |
+| <img src="./svg/air-freshener-off.svg" width="24" /> | air-freshener-off |
+| <img src="./svg/air-freshener-variant-off.svg" width="24" /> | air-freshener-variant-off |
+| <img src="./svg/air-freshener.svg" width="24" /> | air-freshener |
+| <img src="./svg/air-freshener_variant.svg" width="24" /> | air-freshener_variant |
+| <img src="./svg/air-purifier-disabled.svg" width="24" /> | air-purifier-disabled |
+| <img src="./svg/air-purifier.svg" width="24" /> | air-purifier |
+| <img src="./svg/alert-circle.svg" width="24" /> | alert-circle |
+| <img src="./svg/alert.svg" width="24" /> | alert |
+| <img src="./svg/battery-high.svg" width="24" /> | battery-high |
+| <img src="./svg/bell-ring.svg" width="24" /> | bell-ring |
+| <img src="./svg/blank.svg" width="24" /> | blank |
+| <img src="./svg/button-rotated.svg" width="24" /> | button-rotated |
+| <img src="./svg/button.svg" width="24" /> | button |
+| <img src="./svg/ceiling-fan-blades.svg" width="24" /> | ceiling-fan-blades |
+| <img src="./svg/ceiling-fan-light-off.svg" width="24" /> | ceiling-fan-light-off |
+| <img src="./svg/ceiling-fan-off.svg" width="24" /> | ceiling-fan-off |
+| <img src="./svg/ceiling-fan-wind.svg" width="24" /> | ceiling-fan-wind |
+| <img src="./svg/ceiling-light-off.svg" width="24" /> | ceiling-light-off |
+| <img src="./svg/cellphone.svg" width="24" /> | cellphone |
+| <img src="./svg/charge-tablet-off.svg" width="24" /> | charge-tablet-off |
+| <img src="./svg/charge-tablet.svg" width="24" /> | charge-tablet |
+| <img src="./svg/coach-lamp-off.svg" width="24" /> | coach-lamp-off |
+| <img src="./svg/cube-off.svg" width="24" /> | cube-off |
+| <img src="./svg/cube.svg" width="24" /> | cube |
+| <img src="./svg/curtain-left-closed.svg" width="24" /> | curtain-left-closed |
+| <img src="./svg/curtain-left.svg" width="24" /> | curtain-left |
+| <img src="./svg/curtain-right-closed.svg" width="24" /> | curtain-right-closed |
+| <img src="./svg/curtains-off.svg" width="24" /> | curtains-off |
+| <img src="./svg/dashboard-off.svg" width="24" /> | dashboard-off |
+| <img src="./svg/dishwasher.svg" width="24" /> | dishwasher |
+| <img src="./svg/door.svg" width="24" /> | door |
+| <img src="./svg/echo-dot-gen3.svg" width="24" /> | echo-dot-gen3 |
+| <img src="./svg/echo-dot-gen4.svg" width="24" /> | echo-dot-gen4 |
+| <img src="./svg/echo-gen2.svg" width="24" /> | echo-gen2 |
+| <img src="./svg/echo-show-5.svg" width="24" /> | echo-show-5 |
+| <img src="./svg/echo-show-8.svg" width="24" /> | echo-show-8 |
+| <img src="./svg/fire.svg" width="24" /> | fire |
+| <img src="./svg/floor-lamp-ring-off.svg" width="24" /> | floor-lamp-ring-off |
+| <img src="./svg/floor-lamp-ring.svg" width="24" /> | floor-lamp-ring |
+| <img src="./svg/frenchie-off.svg" width="24" /> | frenchie-off |
+| <img src="./svg/frenchie.svg" width="24" /> | frenchie |
+| <img src="./svg/home-empty.svg" width="24" /> | home-empty |
+| <img src="./svg/lamp-off.svg" width="24" /> | lamp-off |
+| <img src="./svg/laptop.svg" width="24" /> | laptop |
+| <img src="./svg/light-strip-wall-off.svg" width="24" /> | light-strip-wall-off |
+| <img src="./svg/light-strip-wall.svg" width="24" /> | light-strip-wall |
+| <img src="./svg/lightbulb-night-off.svg" width="24" /> | lightbulb-night-off |
+| <img src="./svg/mirror-light-off.svg" width="24" /> | mirror-light-off |
+| <img src="./svg/mirror-light.svg" width="24" /> | mirror-light |
+| <img src="./svg/monitor.svg" width="24" /> | monitor |
+| <img src="./svg/no-motion.svg" width="24" /> | no-motion |
+| <img src="./svg/numeric-11-circle-outline.svg" width="24" /> | numeric-11-circle-outline |
+| <img src="./svg/numeric-12-circle-outline.svg" width="24" /> | numeric-12-circle-outline |
+| <img src="./svg/numeric-13-circle-outline.svg" width="24" /> | numeric-13-circle-outline |
+| <img src="./svg/numeric-14-circle-outline.svg" width="24" /> | numeric-14-circle-outline |
+| <img src="./svg/numeric-15-circle-outline.svg" width="24" /> | numeric-15-circle-outline |
+| <img src="./svg/numeric-16-circle-outline.svg" width="24" /> | numeric-16-circle-outline |
+| <img src="./svg/paper.svg" width="24" /> | paper |
+| <img src="./svg/power-socket-off.svg" width="24" /> | power-socket-off |
+| <img src="./svg/printer.svg" width="24" /> | printer |
+| <img src="./svg/radiator.svg" width="24" /> | radiator |
+| <img src="./svg/robot-vacuum.svg" width="24" /> | robot-vacuum |
+| <img src="./svg/smoke-detector-variant-check.svg" width="24" /> | smoke-detector-variant-check |
+| <img src="./svg/stair-light-off.svg" width="24" /> | stair-light-off |
+| <img src="./svg/stair-light.svg" width="24" /> | stair-light |
+| <img src="./svg/suction.svg" width="24" /> | suction |
+| <img src="./svg/tablet-dashboard-off.svg" width="24" /> | tablet-dashboard-off |
+| <img src="./svg/tablet.svg" width="24" /> | tablet |
+| <img src="./svg/teddy.svg" width="24" /> | teddy |
+| <img src="./svg/television-classic.svg" width="24" /> | television-classic |
+| <img src="./svg/television.svg" width="24" /> | television |
+| <img src="./svg/temp-and-hum.svg" width="24" /> | temp-and-hum |
+| <img src="./svg/thermostat-off.svg" width="24" /> | thermostat-off |
+| <img src="./svg/trash-can-charging-off.svg" width="24" /> | trash-can-charging-off |
+| <img src="./svg/trash-can-charging.svg" width="24" /> | trash-can-charging |
+| <img src="./svg/trash-can-off.svg" width="24" /> | trash-can-off |
+| <img src="./svg/tumble-dryer.svg" width="24" /> | tumble-dryer |
+| <img src="./svg/usb-port-off.svg" width="24" /> | usb-port-off |
+| <img src="./svg/usb-port.svg" width="24" /> | usb-port |
+| <img src="./svg/wall-sconce-flat-off.svg" width="24" /> | wall-sconce-flat-off |
+| <img src="./svg/washing-machine-bubble.svg" width="24" /> | washing-machine-bubble |
+| <img src="./svg/washing-machine-drum.svg" width="24" /> | washing-machine-drum |
+| <img src="./svg/washing-machine-empty.svg" width="24" /> | washing-machine-empty |
+| <img src="./svg/washing-machine-rinse.svg" width="24" /> | washing-machine-rinse |
+| <img src="./svg/washing-machine-wash.svg" width="24" /> | washing-machine-wash |
+| <img src="./svg/water-boiler-auto.svg" width="24" /> | water-boiler-auto |
+| <img src="./svg/water-heater-off.svg" width="24" /> | water-heater-off |
+| <img src="./svg/water-heater.svg" width="24" /> | water-heater |
+| <img src="./svg/water.svg" width="24" /> | water |
+| <img src="./svg/waves.svg" width="24" /> | waves |
+| <img src="./svg/window-full-open.svg" width="24" /> | window-full-open |
+| <img src="./svg/window-left-open.svg" width="24" /> | window-left-open |
+| <img src="./svg/window-off.svg" width="24" /> | window-off |
+| <img src="./svg/window-right-open.svg" width="24" /> | window-right-open |
+<!-- ICONS END -->
 
-## Brands / products
-
-![Preview](./svg/adguard-home.svg) adguard-home<br />
-![Preview](./svg/apple-tv.svg) apple-tv<br />
-![Preview](./svg/asus.svg) asus<br />
-![Preview](./svg/b-hyve.svg) b-hyve<br />
-![Preview](./svg/homeassistant.svg) homeassistant<br />
-![Preview](./svg/matter.svg) matter<br />
-![Preview](./svg/nginx-proxy-manager.svg) nginx-proxy-manager<br />
-![Preview](./svg/node-red.svg) node-red<br />
-![Preview](./svg/open-wrt.svg) open-wrt<br />
-![Preview](./svg/phoscon.svg) phoscon<br />
-![Preview](./svg/plex.svg) plex<br />
-![Preview](./svg/proxmox.svg) proxmox<br />
-![Preview](./svg/qbittorrent.svg) qbittorrent<br />
-![Preview](./svg/radarr.svg) radarr<br />
-![Preview](./svg/roborock.svg) roborock<br />
-![Preview](./svg/sonarr.svg) sonarr<br />
-![Preview](./svg/tautulli.svg) tautulli<br />
-![Preview](./svg/transmission.svg) transmission<br />
+---
 
 ## Install
 
