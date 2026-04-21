@@ -7,7 +7,7 @@
 
 A standalone SVG icon set for Home Assistant, providing a clean and lightweight custom icon namespace `mushic:`.
 
-The icons are especially designed to be used with [**Mushroomic Cards**](https://github.com/Maetzi87/lovelace-mushroomic-cards), but work anywhere in Homeassistant.
+The icons are especially designed to be used with [**Mushroomic Cards**](https://github.com/Maetzi87/lovelace-mushroomic-cards), but work anywhere in Home Assistant.
 
 Mushroomic Icons mimic the style of the preinstalled Material Design Icons, adding Icons I personally missed. Some of the Icons are identical with mdi icons, but provide **auto-animation** in Mushroomic Cards.
 
@@ -124,12 +124,23 @@ All icons are automatically registered through the included mushic-icons.js bund
 ## Install
 
 ### HACS
+1. Open HACS → Frontend
 
-Add this repo via HACS as a plugin and install. See the [HACS install guide](./HACS_INSTALL.md) for step by step instructions.
+2. Click the ⋮ menu in the top right and select Custom repositories
+
+3. Add this repository with category lovelace:
+```
+https://github.com/Maetzi87/mushroomic-icons
+```
+
+4. Click Add, then install the Mushroomic Icons plugin
+
+5. Restart Home Assistant
+
 
 ### Manual
 
-Copy the `music-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
+Copy the `mushic-icons.js` file into `<config>/www/` where `<config>` is your home-assistant config directory (the directory where your `configuration.yaml` resides).
 
 Add the folowing to the `frontend` section of your `configuration.yaml`
 
@@ -147,7 +158,7 @@ resources:
     url: /local/mushic-icons.js
 ```
 
-Restart home-assistant.
+Restart Home Assistant.
 
 ## Using
 
@@ -157,11 +168,13 @@ The icons use the prefix `mushic:`.
 ## Extras
 
 In the **Extras** folder you’ll find an animated SVG for motion sensors.  
+<img src="./extras/walk.svg" width="24" />
 Since multi‑frame animations cannot be used as normal icons (they would flicker), this file must be used as a **picture** in Lovelace.
 
 If you want to use it, download the SVG from the Extras folder and store it locally in `/www/`.  
 Then reference it in your card using `picture:` or `image:`.
 
-Example for mushroomic cards:
+Example for **Mushroomic Cards**:
 ```yaml
 picture: '/local/walk.svg'
+```
