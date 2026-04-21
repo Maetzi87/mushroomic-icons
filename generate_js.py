@@ -60,3 +60,7 @@ js = template.substitute(icons=json.dumps(icons, sort_keys=True, indent=2))
 
 with open(OUTFILE, "w") as outfile:
     outfile.write(js)
+    
+ROOT_OUTFILE = "mushic-icons.js"
+with open(ROOT_OUTFILE, "w") as rootfile:
+    rootfile.write(js)
