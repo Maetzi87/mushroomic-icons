@@ -8,11 +8,17 @@ def generate_icon_list():
         f for f in os.listdir(SVG_DIR)
         if f.endswith(".svg")
     )
+
     lines = []
+    lines.append("| Icon | Name |")
+    lines.append("|------|------|")
+
     for f in files:
-        name = f[:-4]  # remove .svg
-        lines.append(f"![Preview](./svg/{f}) {name}<br />")
+        name = f[:-4]
+        lines.append(f'| <img src="./svg/{f}" width="24" /> | {name} |')
+
     return "\n".join(lines)
+
 
 def update_readme():
     with open(README, "r", encoding="utf-8") as f:
