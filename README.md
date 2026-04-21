@@ -168,7 +168,7 @@ The icons use the prefix `mushic:`.
 ## Extras
 
 In the **Extras** folder you’ll find an animated SVG for motion sensors.  
-<img src="./extras/walk.svg" width="24" />
+<img src="./extras/walk.svg" width="40" /> </br>
 Since multi‑frame animations cannot be used as normal icons (they would flicker), this file must be used as a **picture** in Lovelace.
 
 If you want to use it, download the SVG from the Extras folder and store it locally in `/www/`.  
