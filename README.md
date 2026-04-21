@@ -2,7 +2,6 @@
 ![Total Downloads](https://img.shields.io/github/downloads/Maetzi87/mushroomic-icons/total)
 ![Latest Release](https://img.shields.io/github/v/release/Maetzi87/mushroomic-icons)
 ![License](https://img.shields.io/github/license/Maetzi87/mushroomic-icons)
-![Stars](https://img.shields.io/github/stars/Maetzi87/mushroomic-icons)
 
 # 🍄 Mushroomic Icons
 
@@ -152,11 +151,17 @@ Restart home-assistant.
 
 ## Using
 
-The icons uses the prefix `mushic:`.
+The icons use the prefix `mushic:`.
 
 
-## FAQ
+## Extras
 
-Q: The icon ain't showing, it's just white space where it should be. What's up with that?
+In the **Extras** folder you’ll find an animated SVG for motion sensors.  
+Since multi‑frame animations cannot be used as normal icons (they would flicker), this file must be used as a **picture** in Lovelace.
 
-A: Probably related to cache. Try opening your instance in a incognito/private Window and see if your icon shows then. If yes, it's cache related. If not, spellcheck.
+If you want to use it, download the SVG from the Extras folder and store it locally in `/www/`.  
+Then reference it in your card using `picture:` or `image:`.
+
+Example for mushroomic cards:
+```yaml
+picture: '/local/walk.svg'
