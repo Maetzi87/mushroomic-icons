@@ -67,7 +67,7 @@ All icons are automatically registered through the included mushic-icons.js bund
 | <img src="./svg/washing-machine-drum.svg" width="24" /> | washing-machine-drum |   | <img src="./svg/washing-machine-rinse.svg" width="24" /> | washing-machine-rinse |
 | <img src="./svg/washing-machine-spin-static.svg" width="24" /> | washing-machine-spin-static |   | <img src="./svg/washing-machine-spin.svg" width="24" /> | washing-machine-spin |
 | <img src="./svg/washing-machine-wash-static.svg" width="24" /> | washing-machine-wash-static |   | <img src="./svg/washing-machine-wash.svg" width="24" /> | washing-machine-wash |
-| <img src="./svg/washing-machine-waves.svg" width="24" /> | washing-machine-waves |   | <img src="./svg/water-boiler-auto.svg" width="24" /> | water-boiler-auto |
+| <img src="./svg/washing-machine-water.svg" width="24" /> | washing-machine-water |   | <img src="./svg/water-boiler-auto.svg" width="24" /> | water-boiler-auto |
 | <img src="./svg/water-boiler.svg" width="24" /> | water-boiler |   | <img src="./svg/water-heater-off.svg" width="24" /> | water-heater-off |
 | <img src="./svg/water-heater.svg" width="24" /> | water-heater |   | <img src="./svg/water.svg" width="24" /> | water |
 | <img src="./svg/wifi.svg" width="24" /> | wifi |   | <img src="./svg/window-full-open.svg" width="24" /> | window-full-open |
